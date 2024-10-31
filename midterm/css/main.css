@@ -49,8 +49,16 @@ table {
 
 /* ======== My CSS ======== */ 
 
+.bg-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 h1 {
-	font: size 50px;;
+    font-size: 2rem;
+    color: white;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 hr {
@@ -58,5 +66,77 @@ hr {
 }
 
  body{ 
-	background-color:#d4e9e7;
+	background-color:#aad4cf;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 ;
+}
+
+header {
+    position: relative; 
+    text-align: center; 
+    overflow: hidden;
+}
+
+	header h1 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-transform: uppercase;
+	}
+
+	ul {
+		list-style: disc;
+	}
+
+	nav ul { 
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	
+	nav ul li a {
+		text-decoration: none;
+		color: inherit;
+	}
+	
+	nav ul li {
+		display: inline-block;
+		width: calc(50% / 4);
+		padding: 20px 0;
+	}
+
+	.content { 
+		display: flex;
+		align-items: flex-start;
+		gap: 20px;
+	}
+
+	h2 { 
+		font-size: 25px;
+	}
+
+	.box {
+		border: 2px solid black;
+		padding: 15px 60px 60px 60px; 
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+		width: 500px;
+		height: 200px;
+		margin-left:15px;
+	}
+
+.everything {
+	max-width: 800px;
+    margin: 0 auto ;
+    background-color:#d4e9e7 ;
+	padding: 20px
+}
+
+footer {
+	text-align: right;
 }
