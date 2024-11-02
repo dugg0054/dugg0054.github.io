@@ -81,7 +81,7 @@ header {
     overflow: hidden;
 }
 
-	header h1 {
+header h1 {
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -99,6 +99,7 @@ header {
 
 h2 {
 	padding-left: 10px;
+	padding-bottom: 10px;
 }
 
 .nav-bar {
@@ -109,6 +110,7 @@ h2 {
 	ul {
 		list-style: disc;
 		padding-left: 30px;
+		padding-bottom: 10px;
 	}
 
 	nav ul { 
@@ -129,6 +131,13 @@ h2 {
 		padding: 20px 0;
 	}
 
+	.box .message textarea {
+		width: 100%;
+		padding: 10px;
+		height: 200px;
+		resize: vertical;
+	}
+
 	.content { 
 		display: flex;
 		align-items: flex-start;
@@ -138,6 +147,12 @@ h2 {
 	h2 { 
 		font-size: 25px;
 	}
+
+.form, .answer, .button {
+	padding-top: 20px;
+	padding-left: 0px;
+	
+}
 
 	.box {
 		border: 2px solid black;
