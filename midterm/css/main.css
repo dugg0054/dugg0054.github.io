@@ -93,6 +93,10 @@ header h1 {
 	padding-right: 10px;
 }
 
+.title {
+	padding-top: 33px;
+}
+
 .content {
 	padding-left: 10px;
 }
@@ -148,21 +152,38 @@ h2 {
 		font-size: 25px;
 	}
 
+.input {
+	width: 111%;
+	margin-top: 10px;
+}
+
+
+
 .form, .answer, .button {
 	padding-top: 20px;
 	padding-left: 0px;
 	
 }
 
+.message-box {
+	width: 111%;
+	height: 50px;
+	margin-top: 10px;
+}
+
 	.box {
 		border: 2px solid black;
-		padding: 15px 60px 60px 60px; 
+		padding: 0px 100px 160px 10px; 
 		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
-		width: 700px;
+		width: 750px;
 		height: 200px;
 		margin-left:15px;
 		margin-bottom: 15px;
 	}
+
+button {
+	background-color: #aad4cf;
+}
 
 .everything {
 	max-width: 900px;
