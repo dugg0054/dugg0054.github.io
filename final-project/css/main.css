@@ -49,3 +49,180 @@ table {
 
 
 /* ----- My CSS ----- */ 
+
+/* Black bar behind the logo and navigation  bar */
+.headerbar {
+	background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+	padding: 10px 20px;
+	height: 120px;
+}
+
+/* Making the logo the right size and in the right position */
+.logo {
+	height: 75px;
+	margin-right: 20px;
+}
+
+/* Putting the navigation bar in the right place */
+.navigation nav ul {
+    display: flex;
+    list-style-type: none;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul li {
+	margin: 0 15px;
+}
+
+/* Changing the font size and type */
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: orange;
+    padding: 18px 0;
+	font-size: 20px;
+	font-family: "Open Sans" sans-serif;
+}
+
+/*Making the navigation bar change coolours when hovered over */
+nav ul li a:hover {
+    color: black;
+	background-color: orange;
+}
+
+/* Putting the text on the image and adding a translucent background to be able to read the text*/
+
+
+
+
+.mainheader img {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  object-fit: cover;
+}
+
+.aboutussection {
+/* Making the background colour of the About Us Section */
+	background-color: #fae2ab;
+	height: 300px;
+	display: flex;
+	align-items:flex-start ;
+	flex-wrap: wrap;
+	gap: 40px;
+	padding: 20px;
+}
+
+/* Resizing the Image */
+.aboutussection img {
+	width: 500px;
+	height: auto;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.aboutussection h1 p {
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.aboutussection h3 {
+	font-size: 50px;
+	text-align: left;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.aboutussection h3,
+.aboutussection p {
+  max-width: 50%; 
+  flex: 1; 
+  margin: 0; 
+}
+
+.aboutussection p {
+	font-size: 16px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+/* Styling for the second paragraph */
+.aboutussection .p2 {
+	text-align: justify;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+.bobsection {
+	background-color:#ffe6ac; 
+}
+
+.johnsection {
+	background-color:#ffe6ac ;
+}
+
+.grid {
+	display: grid;
+	/* Makes two equal columns */
+	grid-template-columns: 1fr 1fr; 
+	grid-template-rows: auto auto; 
+	gap: 20px; 
+	margin: 0 auto;
+	max-width: 1200px; 
+  }
+
+  .grid section {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+  }
+
+  .grid img {
+	width: 100%; 
+	height: auto; 
+  }
+
+
+
+  .Vision img{
+	width: 100vw; 
+	height: 30vh; 
+	object-fit: cover; 
+  }
+
+
+
+.timetable {
+	width: 300px;
+}
+
+/* puts a border on the table */
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px 15px; 
+}
+
+/* Footer background and size */
+footer {
+	background-color: black;
+	height: 100px;
+}
+
+/* Footer text colour and positioning */ 
+.footertext {
+	color: orange;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+}
