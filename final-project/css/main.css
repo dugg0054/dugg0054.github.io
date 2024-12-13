@@ -161,7 +161,6 @@ nav ul li a:hover {
 
 
 
-
 .bobsection {
 	background-color:#ffe6ac; 
 }
@@ -172,7 +171,6 @@ nav ul li a:hover {
 
 .grid {
 	display: grid;
-	/* Makes two equal columns */
 	grid-template-columns: 1fr 1fr; 
 	grid-template-rows: auto auto; 
 	gap: 20px; 
